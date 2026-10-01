@@ -70,4 +70,9 @@ gap: 12px;
 .site-nav {
 gap: 16px;
 }
+.vybe-hero
+
+min-height: 85vh; background black, text white, center aligned, padding 60 pixels 20 pixels. Then .vybe-hero-inner
+
+max width 1200 pixels, margin 0 auto. Then .vybe-categories flex center, gap 45 pixels, margin bottom 70 pixels, wrap. And style the links white, bold, uppercase, with a purple glow on hover.
 }
