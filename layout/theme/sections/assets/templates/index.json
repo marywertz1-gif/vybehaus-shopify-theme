@@ -1,3 +1,11 @@
-{ "sections" { "header" { "type" "header" "settings" { } { "order" array
-
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero"
+  ]
 }
