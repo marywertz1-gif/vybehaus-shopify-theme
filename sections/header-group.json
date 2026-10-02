@@ -1,0 +1,13 @@
+{
+  "type": "header",
+  "name": "VYBE HAUS Header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {}
+    }
+  },
+  "order": [
+    "header"
+  ]
+}
