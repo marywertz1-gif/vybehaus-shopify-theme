@@ -1,3 +1,38 @@
-<header class="site-header"> <div class="header-inner"> <nav class="site-nav"> <a href="/ collections slash beauty">BEAUTY <a> <a href="/collections/fashion">FASHION <a> <a href="/collections/streamer-supplies">STREAMER SUPPLIES <a> <a> href="{{ routes dot root underscore URL }}" class="site-logo"> VYBE HAUS <div class="header-cart">`
+<header class="site-header">
+  <div class="header-inner">
 
-<a href="{{routes dot cart underscore URL }}">CART`
+    <a href="{{ routes.root_url }}" class="site-logo">
+      VYBE HAUS
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+
+      <a href="/collections/beauty">
+        BEAUTY
+      </a>
+
+      <a href="/collections/fashion">
+        FASHION
+      </a>
+
+      <a href="/collections/streamer-supplies">
+        STREAMER SUPPLIES
+      </a>
+
+    </nav>
+
+    <div class="header-cart">
+      <a href="{{ routes.cart_url }}">
+        CART
+      </a>
+    </div>
+
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "VYBE HAUS Header",
+  "settings": []
+}
+{% endschema %}
